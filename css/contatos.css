@@ -1,0 +1,68 @@
+/* padrão cll*/
+body {
+    background-color: #ffffff;
+}
+
+#Logo {
+    display: flex;
+    flex-direction: row;
+    text-align: center center ;
+    align-items: center;
+
+}
+
+
+#email {
+
+    position: absolute;
+    left: 10%;
+    align-items: center;
+    max-width: 100%;
+    
+}
+
+#tel {
+    
+    display: flex;
+    flex-direction: row;
+    text-align: center ;
+    align-items: center;
+
+}
+
+
+#container {
+    background: white;
+        width: 30%;
+        height: auto;
+        min-height: 22vw;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        text-align: center   center ;
+}
+
+
+/*tablet*/
+@media only screen and (min-width: 960px) {
+body  {
+    background-color: #ffffff;
+}
+}
+
+
+
+/*só nos computer*/
+@media only screen and (min-width: 1280px) {
+ body {
+    background: #ffffff;
+ }
+}
+
+#hearder {
+position: absolute;
+left: 25%;
+bottom: 85%;
+
+}
